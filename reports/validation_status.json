@@ -1,0 +1,19 @@
+{
+  "prepared_on": "2026-11-18",
+  "python": "3.12.14",
+  "python_tests": {
+    "run": true,
+    "passed": 10,
+    "failed": 0
+  },
+  "source_checksum_verified": true,
+  "dashboard_figures_rendered": 3,
+  "figures_visually_reviewed": 3,
+  "sql_server_execution": "not run; scripts supplied for local validation",
+  "power_bi_execution": "not run; DAX, M and build instructions supplied; no PBIX included",
+  "dependencies": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8"
+  }
+}

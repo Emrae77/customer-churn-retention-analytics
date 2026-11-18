@@ -1,0 +1,4 @@
+segment,customers,churned,not_churned,churn_rate_pct,avg_monthly_charges
+DSL,2421,459,1962,18.959108,58.102169
+Fiber optic,3096,1297,1799,41.892765,91.500129
+No,1526,113,1413,7.40498,21.079194

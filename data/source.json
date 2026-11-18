@@ -1,0 +1,14 @@
+{
+  "publisher": "IBM",
+  "dataset": "Telco Customer Churn, classic 21-column sample",
+  "repository": "https://github.com/IBM/telco-customer-churn-on-icp4d",
+  "commit": "d5371f5d83a446ad5673cbcca3b814b926491f8a",
+  "path": "data/Telco-Customer-Churn.csv",
+  "download_url": "https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/d5371f5d83a446ad5673cbcca3b814b926491f8a/data/Telco-Customer-Churn.csv",
+  "sha256": "16320c9c1ec72448db59aa0a26a0b95401046bef5d02fd3aeb906448e3055e91",
+  "expected_bytes": 970457,
+  "expected_rows": 7043,
+  "expected_columns": 21,
+  "source_type": "Public IBM sample, not a live telecommunications feed",
+  "license_note": "IBM's source repository declares Apache-2.0 for its code pattern. Raw data is downloaded from IBM and is not redistributed in this package. See docs/DATA_SOURCE.md."
+}

@@ -1,0 +1,3 @@
+segment,customers,churned,not_churned,churn_rate_pct,avg_monthly_charges
+No,3473,1446,2027,41.635474,74.586683
+Yes,2044,310,1734,15.166341,80.680137

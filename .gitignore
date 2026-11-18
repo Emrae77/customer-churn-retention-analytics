@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.env
+.env.*
+!.env.example
+data/raw/*.csv
+data/processed/*.csv
+*.db
+*.sqlite*
+*.log
+.vscode/
+.idea/
+*.zip

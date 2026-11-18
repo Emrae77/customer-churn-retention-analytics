@@ -1,0 +1,7 @@
+{
+  "name": "Telco Retention | Navy Teal Orange",
+  "dataColors": ["#007F86", "#E8793E", "#18354A", "#68A8AC", "#98A6B1", "#CDA485"],
+  "background": "#FFFFFF",
+  "foreground": "#18354A",
+  "tableAccent": "#007F86"
+}

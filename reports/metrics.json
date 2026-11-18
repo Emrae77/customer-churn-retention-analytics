@@ -1,0 +1,322 @@
+{
+  "source": {
+    "publisher": "IBM",
+    "dataset": "Telco Customer Churn, classic 21-column sample",
+    "repository": "https://github.com/IBM/telco-customer-churn-on-icp4d",
+    "commit": "d5371f5d83a446ad5673cbcca3b814b926491f8a",
+    "path": "data/Telco-Customer-Churn.csv",
+    "download_url": "https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/d5371f5d83a446ad5673cbcca3b814b926491f8a/data/Telco-Customer-Churn.csv",
+    "sha256": "16320c9c1ec72448db59aa0a26a0b95401046bef5d02fd3aeb906448e3055e91",
+    "expected_bytes": 970457,
+    "expected_rows": 7043,
+    "expected_columns": 21,
+    "source_type": "Public IBM sample, not a live telecommunications feed",
+    "license_note": "IBM's source repository declares Apache-2.0 for its code pattern. Raw data is downloaded from IBM and is not redistributed in this package. See docs/DATA_SOURCE.md."
+  },
+  "scope": "Static customer snapshot; churn rate is the observed share labelled Yes.",
+  "overall": {
+    "customers": 7043,
+    "churned": 1869,
+    "not_churned": 5174,
+    "churn_rate_pct": 26.536987,
+    "not_churned_share_pct": 73.463013,
+    "avg_monthly_charges": 64.761692
+  },
+  "data_quality": {
+    "raw_rows": 7043,
+    "raw_columns": 21,
+    "clean_rows": 7043,
+    "unique_customers": 7043,
+    "duplicate_customer_ids": 0,
+    "rows_removed": 0,
+    "total_charges_missing": 11,
+    "missing_total_charges_at_tenure_zero": 11,
+    "unexpected_churn_labels": 0,
+    "invalid_numeric_values": 0
+  },
+  "segments": {
+    "contract": [
+      {
+        "segment": "Month-to-month",
+        "customers": 3875,
+        "churned": 1655,
+        "not_churned": 2220,
+        "churn_rate_pct": 42.709677,
+        "avg_monthly_charges": 66.39849
+      },
+      {
+        "segment": "One year",
+        "customers": 1473,
+        "churned": 166,
+        "not_churned": 1307,
+        "churn_rate_pct": 11.269518,
+        "avg_monthly_charges": 65.048608
+      },
+      {
+        "segment": "Two year",
+        "customers": 1695,
+        "churned": 48,
+        "not_churned": 1647,
+        "churn_rate_pct": 2.831858,
+        "avg_monthly_charges": 60.770413
+      }
+    ],
+    "tenure": [
+      {
+        "segment": "0 months",
+        "customers": 11,
+        "churned": 0,
+        "not_churned": 11,
+        "churn_rate_pct": 0.0,
+        "avg_monthly_charges": 41.418182
+      },
+      {
+        "segment": "1–12 months",
+        "customers": 2175,
+        "churned": 1037,
+        "not_churned": 1138,
+        "churn_rate_pct": 47.678161,
+        "avg_monthly_charges": 56.172023
+      },
+      {
+        "segment": "13–24 months",
+        "customers": 1024,
+        "churned": 294,
+        "not_churned": 730,
+        "churn_rate_pct": 28.710938,
+        "avg_monthly_charges": 61.357275
+      },
+      {
+        "segment": "25–48 months",
+        "customers": 1594,
+        "churned": 325,
+        "not_churned": 1269,
+        "churn_rate_pct": 20.388959,
+        "avg_monthly_charges": 65.930552
+      },
+      {
+        "segment": "49–72 months",
+        "customers": 2239,
+        "churned": 213,
+        "not_churned": 2026,
+        "churn_rate_pct": 9.513176,
+        "avg_monthly_charges": 73.945377
+      }
+    ],
+    "internet_service": [
+      {
+        "segment": "DSL",
+        "customers": 2421,
+        "churned": 459,
+        "not_churned": 1962,
+        "churn_rate_pct": 18.959108,
+        "avg_monthly_charges": 58.102169
+      },
+      {
+        "segment": "Fiber optic",
+        "customers": 3096,
+        "churned": 1297,
+        "not_churned": 1799,
+        "churn_rate_pct": 41.892765,
+        "avg_monthly_charges": 91.500129
+      },
+      {
+        "segment": "No",
+        "customers": 1526,
+        "churned": 113,
+        "not_churned": 1413,
+        "churn_rate_pct": 7.40498,
+        "avg_monthly_charges": 21.079194
+      }
+    ],
+    "payment_method": [
+      {
+        "segment": "Electronic check",
+        "customers": 2365,
+        "churned": 1071,
+        "not_churned": 1294,
+        "churn_rate_pct": 45.285412,
+        "avg_monthly_charges": 76.255814
+      },
+      {
+        "segment": "Mailed check",
+        "customers": 1612,
+        "churned": 308,
+        "not_churned": 1304,
+        "churn_rate_pct": 19.1067,
+        "avg_monthly_charges": 43.91706
+      },
+      {
+        "segment": "Bank transfer (automatic)",
+        "customers": 1544,
+        "churned": 258,
+        "not_churned": 1286,
+        "churn_rate_pct": 16.709845,
+        "avg_monthly_charges": 67.192649
+      },
+      {
+        "segment": "Credit card (automatic)",
+        "customers": 1522,
+        "churned": 232,
+        "not_churned": 1290,
+        "churn_rate_pct": 15.243101,
+        "avg_monthly_charges": 66.512385
+      }
+    ],
+    "tech_support_internet_only": [
+      {
+        "segment": "No",
+        "customers": 3473,
+        "churned": 1446,
+        "not_churned": 2027,
+        "churn_rate_pct": 41.635474,
+        "avg_monthly_charges": 74.586683
+      },
+      {
+        "segment": "Yes",
+        "customers": 2044,
+        "churned": 310,
+        "not_churned": 1734,
+        "churn_rate_pct": 15.166341,
+        "avg_monthly_charges": 80.680137
+      }
+    ]
+  },
+  "contract_by_tenure": [
+    {
+      "contract": "Month-to-month",
+      "segment": "0 months",
+      "customers": 0,
+      "churned": 0,
+      "not_churned": 0,
+      "churn_rate_pct": null,
+      "avg_monthly_charges": null
+    },
+    {
+      "contract": "Month-to-month",
+      "segment": "1–12 months",
+      "customers": 1994,
+      "churned": 1024,
+      "not_churned": 970,
+      "churn_rate_pct": 51.354062,
+      "avg_monthly_charges": 58.217904
+    },
+    {
+      "contract": "Month-to-month",
+      "segment": "13–24 months",
+      "customers": 737,
+      "churned": 278,
+      "not_churned": 459,
+      "churn_rate_pct": 37.720488,
+      "avg_monthly_charges": 69.309566
+    },
+    {
+      "contract": "Month-to-month",
+      "segment": "25–48 months",
+      "customers": 802,
+      "churned": 264,
+      "not_churned": 538,
+      "churn_rate_pct": 32.917706,
+      "avg_monthly_charges": 75.940212
+    },
+    {
+      "contract": "Month-to-month",
+      "segment": "49–72 months",
+      "customers": 342,
+      "churned": 89,
+      "not_churned": 253,
+      "churn_rate_pct": 26.023392,
+      "avg_monthly_charges": 85.44576
+    },
+    {
+      "contract": "One year",
+      "segment": "0 months",
+      "customers": 1,
+      "churned": 0,
+      "not_churned": 1,
+      "churn_rate_pct": 0.0,
+      "avg_monthly_charges": 19.7
+    },
+    {
+      "contract": "One year",
+      "segment": "1–12 months",
+      "customers": 123,
+      "churned": 13,
+      "not_churned": 110,
+      "churn_rate_pct": 10.569106,
+      "avg_monthly_charges": 35.928455
+    },
+    {
+      "contract": "One year",
+      "segment": "13–24 months",
+      "customers": 197,
+      "churned": 16,
+      "not_churned": 181,
+      "churn_rate_pct": 8.121827,
+      "avg_monthly_charges": 44.87868
+    },
+    {
+      "contract": "One year",
+      "segment": "25–48 months",
+      "customers": 518,
+      "churned": 55,
+      "not_churned": 463,
+      "churn_rate_pct": 10.617761,
+      "avg_monthly_charges": 61.956178
+    },
+    {
+      "contract": "One year",
+      "segment": "49–72 months",
+      "customers": 634,
+      "churned": 82,
+      "not_churned": 552,
+      "churn_rate_pct": 12.933754,
+      "avg_monthly_charges": 79.563565
+    },
+    {
+      "contract": "Two year",
+      "segment": "0 months",
+      "customers": 10,
+      "churned": 0,
+      "not_churned": 10,
+      "churn_rate_pct": 0.0,
+      "avg_monthly_charges": 43.59
+    },
+    {
+      "contract": "Two year",
+      "segment": "1–12 months",
+      "customers": 58,
+      "churned": 0,
+      "not_churned": 58,
+      "churn_rate_pct": 0.0,
+      "avg_monthly_charges": 28.766379
+    },
+    {
+      "contract": "Two year",
+      "segment": "13–24 months",
+      "customers": 90,
+      "churned": 0,
+      "not_churned": 90,
+      "churn_rate_pct": 0.0,
+      "avg_monthly_charges": 32.306667
+    },
+    {
+      "contract": "Two year",
+      "segment": "25–48 months",
+      "customers": 274,
+      "churned": 6,
+      "not_churned": 268,
+      "churn_rate_pct": 2.189781,
+      "avg_monthly_charges": 44.145803
+    },
+    {
+      "contract": "Two year",
+      "segment": "49–72 months",
+      "customers": 1263,
+      "churned": 42,
+      "not_churned": 1221,
+      "churn_rate_pct": 3.325416,
+      "avg_monthly_charges": 68.011045
+    }
+  ]
+}

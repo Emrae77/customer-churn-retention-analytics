@@ -1,0 +1,5 @@
+segment,customers,churned,not_churned,churn_rate_pct,avg_monthly_charges
+Electronic check,2365,1071,1294,45.285412,76.255814
+Mailed check,1612,308,1304,19.1067,43.91706
+Bank transfer (automatic),1544,258,1286,16.709845,67.192649
+Credit card (automatic),1522,232,1290,15.243101,66.512385

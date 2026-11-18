@@ -1,0 +1,16 @@
+contract,segment,customers,churned,not_churned,churn_rate_pct,avg_monthly_charges
+Month-to-month,0 months,0,0,0,,
+Month-to-month,1–12 months,1994,1024,970,51.354062,58.217904
+Month-to-month,13–24 months,737,278,459,37.720488,69.309566
+Month-to-month,25–48 months,802,264,538,32.917706,75.940212
+Month-to-month,49–72 months,342,89,253,26.023392,85.44576
+One year,0 months,1,0,1,0.0,19.7
+One year,1–12 months,123,13,110,10.569106,35.928455
+One year,13–24 months,197,16,181,8.121827,44.87868
+One year,25–48 months,518,55,463,10.617761,61.956178
+One year,49–72 months,634,82,552,12.933754,79.563565
+Two year,0 months,10,0,10,0.0,43.59
+Two year,1–12 months,58,0,58,0.0,28.766379
+Two year,13–24 months,90,0,90,0.0,32.306667
+Two year,25–48 months,274,6,268,2.189781,44.145803
+Two year,49–72 months,1263,42,1221,3.325416,68.011045

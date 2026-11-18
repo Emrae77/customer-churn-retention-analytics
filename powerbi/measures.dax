@@ -1,0 +1,33 @@
+// Create each definition separately as a measure on the Customers table.
+// This is a measure catalog, not one executable DAX query.
+// All measures respect current report filters, including status filters.
+
+TotalCustomers =
+COALESCE(COUNTROWS('Customers'), 0)
+
+Churned =
+CALCULATE(
+    [TotalCustomers],
+    KEEPFILTERS('Customers'[ChurnFlag] == 1)
+)
+
+NotChurned =
+CALCULATE(
+    [TotalCustomers],
+    KEEPFILTERS('Customers'[ChurnFlag] == 0)
+)
+
+ChurnRate =
+DIVIDE([Churned], [TotalCustomers])
+
+NotChurnedShare =
+DIVIDE([NotChurned], [TotalCustomers])
+
+AverageMonthlyCharges =
+AVERAGE('Customers'[MonthlyCharges])
+
+MissingTotalCharges =
+CALCULATE(
+    [TotalCustomers],
+    KEEPFILTERS('Customers'[TotalChargesMissing] == 1)
+)

@@ -1,0 +1,4 @@
+segment,customers,churned,not_churned,churn_rate_pct,avg_monthly_charges
+Month-to-month,3875,1655,2220,42.709677,66.39849
+One year,1473,166,1307,11.269518,65.048608
+Two year,1695,48,1647,2.831858,60.770413
